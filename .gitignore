@@ -1,0 +1,32 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Release signing (never commit real keystores or passwords)
+keystore.properties
+release/*.jks
+release/*.keystore
+
+# Session log / personal notes (not part of the project)
+SESSION_README.md
+stuff that needs fixign (human eyes only fuck off cursor)
+
+# Junk / stray image files
+.jpeg
+.1jpeg
+.2jpeg
+.3jpeg
+.4jpeg
+WhatsApp Image*.jpeg
