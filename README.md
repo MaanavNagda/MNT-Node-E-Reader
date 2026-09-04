@@ -41,6 +41,8 @@ cd Optireader
 
 The signed APK will be at `app/build/outputs/apk/release/Optireader-release.apk`.
 
+> **Note:** this repository uses [Git LFS](https://git-lfs.com) for the bundled dictionary database (`app/src/main/assets/oewn.sqlite`). If the database appears as a tiny text file after cloning, run `git lfs pull` or make sure `git lfs install` was run before cloning.
+
 To sign a release build yourself, create a `keystore.properties` file (see `keystore.properties.example`) and place your keystore in `release/`.
 
 ## Tech stack
