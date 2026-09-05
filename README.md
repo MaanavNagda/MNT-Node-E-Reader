@@ -1,4 +1,4 @@
-# Optireader
+# /MNT Node E-reader
 
 A modern, offline-first EPUB and PDF reader for Android, built with Jetpack Compose and the Readium toolkit.
 
@@ -21,9 +21,9 @@ A modern, offline-first EPUB and PDF reader for Android, built with Jetpack Comp
 
 ## Install
 
-Download the latest signed APK from the [Releases page](https://github.com/MaanavNagda/Optireader/releases):
+Download the latest signed APK for **/MNT Node E-reader** from the [Releases page](https://github.com/MaanavNagda/MNTNode/releases):
 
-- **[Download Optireader APK](https://github.com/MaanavNagda/Optireader/releases/latest/download/Optireader-release.apk)**
+- **[Download /MNT Node E-reader APK](https://github.com/MaanavNagda/MNTNode/releases/latest/download/MNTNode-release.apk)**
 
 Then open the downloaded file on your phone and allow installation from unknown sources when prompted.
 
@@ -34,12 +34,12 @@ Then open the downloaded file on your phone and allow installation from unknown 
 Prerequisites: JDK 17+ and Android SDK (compileSdk 36).
 
 ```bash
-git clone https://github.com/MaanavNagda/Optireader.git
-cd Optireader
+git clone https://github.com/MaanavNagda/MNTNode.git
+cd MNTNode
 ./gradlew assembleRelease
 ```
 
-The signed APK will be at `app/build/outputs/apk/release/Optireader-release.apk`.
+The signed APK will be at `app/build/outputs/apk/release/MNTNode-release.apk`.
 
 > **Note:** this repository uses [Git LFS](https://git-lfs.com) for the bundled dictionary database (`app/src/main/assets/oewn.sqlite`). If the database appears as a tiny text file after cloning, run `git lfs pull` or make sure `git lfs install` was run before cloning.
 

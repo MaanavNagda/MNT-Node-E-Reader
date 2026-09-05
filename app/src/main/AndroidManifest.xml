@@ -20,17 +20,17 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:networkSecurityConfig="@xml/optireader_network_security_config"
+        android:networkSecurityConfig="@xml/mntnode_network_security_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Optireader"
+        android:theme="@style/Theme.MNTNode"
         android:usesCleartextTraffic="true"
         tools:replace="android:networkSecurityConfig,android:allowBackup">
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Optireader">
+            android:theme="@style/Theme.MNTNode">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -42,7 +42,7 @@
             android:name=".epub.HighlightProcessTextActivity"
             android:exported="true"
             android:label="@string/menu_item_highlight"
-            android:theme="@style/Theme.Optireader">
+            android:theme="@style/Theme.MNTNode">
             <intent-filter>
                 <action android:name="android.intent.action.PROCESS_TEXT" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -57,7 +57,7 @@
             android:name=".epub.GoogleProcessTextActivity"
             android:exported="true"
             android:label="@string/menu_item_google"
-            android:theme="@style/Theme.Optireader">
+            android:theme="@style/Theme.MNTNode">
             <intent-filter>
                 <action android:name="android.intent.action.PROCESS_TEXT" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -72,7 +72,7 @@
             android:name=".epub.FindProcessTextActivity"
             android:exported="true"
             android:label="@string/menu_item_find"
-            android:theme="@style/Theme.Optireader">
+            android:theme="@style/Theme.MNTNode">
             <intent-filter>
                 <action android:name="android.intent.action.PROCESS_TEXT" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -87,7 +87,7 @@
             android:name=".epub.ReadAloudProcessTextActivity"
             android:exported="true"
             android:label="@string/menu_item_read_aloud"
-            android:theme="@style/Theme.Optireader">
+            android:theme="@style/Theme.MNTNode">
             <intent-filter>
                 <action android:name="android.intent.action.PROCESS_TEXT" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -102,7 +102,7 @@
             android:name=".epub.DictionaryProcessTextActivity"
             android:exported="true"
             android:label="@string/menu_item_dictionary"
-            android:theme="@style/Theme.Optireader">
+            android:theme="@style/Theme.MNTNode">
             <intent-filter>
                 <action android:name="android.intent.action.PROCESS_TEXT" />
                 <category android:name="android.intent.category.DEFAULT" />

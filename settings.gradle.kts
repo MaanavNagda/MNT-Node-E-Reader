@@ -23,6 +23,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Optireader"
+rootProject.name = "MNTNode"
 include(":app")
  

@@ -29,7 +29,7 @@ configurations.configureEach {
 }
 
 android {
-    namespace = "com.example.optireader"
+    namespace = "com.example.mntnode"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -48,7 +48,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.optireader"
+        applicationId = "com.example.mntnode"
         minSdk = 28
         targetSdk = 36
         versionCode = 3
@@ -92,7 +92,7 @@ afterEvaluate {
         doLast {
             val releaseDir = project.layout.buildDirectory.get().asFile.resolve("outputs/apk/release")
             val source = File(releaseDir, "app-release.apk")
-            val target = File(releaseDir, "Optireader-release.apk")
+            val target = File(releaseDir, "MNTNode-release.apk")
             if (source.exists()) {
                 if (target.exists()) {
                     target.delete()
