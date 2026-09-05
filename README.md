@@ -21,9 +21,9 @@ A modern, offline-first EPUB and PDF reader for Android, built with Jetpack Comp
 
 ## Install
 
-Download the latest signed APK for **/MNT Node E-reader** from the [Releases page](https://github.com/MaanavNagda/MNTNode/releases):
+Download the latest signed APK for **/MNT Node E-reader** from the [Releases page](https://github.com/MaanavNagda/MNT-Node-E-Reader/releases):
 
-- **[Download /MNT Node E-reader APK](https://github.com/MaanavNagda/MNTNode/releases/latest/download/MNTNode-release.apk)**
+- **[Download /MNT Node E-reader APK](https://github.com/MaanavNagda/MNT-Node-E-Reader/releases/latest/download/MNTNode-release.apk)**
 
 Then open the downloaded file on your phone and allow installation from unknown sources when prompted.
 
@@ -34,8 +34,8 @@ Then open the downloaded file on your phone and allow installation from unknown 
 Prerequisites: JDK 17+ and Android SDK (compileSdk 36).
 
 ```bash
-git clone https://github.com/MaanavNagda/MNTNode.git
-cd MNTNode
+git clone https://github.com/MaanavNagda/MNT-Node-E-Reader.git
+cd MNT-Node-E-Reader
 ./gradlew assembleRelease
 ```
 
